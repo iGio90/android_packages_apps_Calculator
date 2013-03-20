@@ -54,11 +54,11 @@
     <string name="hexDesc">Hexadécimal</string>
     <string name="binDesc">Binaire</string>
     <string name="decDesc">Décimal</string>
-    <string name="determinantDesc">Déterminant</string>
-    <string name="eigenvalueDesc">Eigen Values</string> 
-    <string name="settings">Paramètres</string>
-    <string name="showHistory">Afficher l\'historique</string>
-    <string name="hideHistory">Cacher l\'historique</string>
+
+    <!-- Settings page text -->
+    <string name="pref_panels">Panneaux</string>
+    <string name="pref_actions">Actions</string>
+    <string name="pref_units">Unités</string>
     <string name="returnToBasic">Retourner au menu simple</string>
     <string name="pref_about">À propos</string>
 </resources>
