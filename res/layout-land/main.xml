@@ -35,12 +35,12 @@
                 android:layout_weight="5"
                 android:layout_height="match_parent"
                 maxDigits="@integer/max_digits">
-    
+
                 <com.android.calculator2.view.ScrollableDisplay
                     style="@style/display_style" />
                 <com.android.calculator2.view.ScrollableDisplay
                     style="@style/display_style" />
-    
+
             </com.android.calculator2.view.CalculatorDisplay>
             <ImageButton android:id="@+id/overflow_menu"
                 android:layout_width="48dip"
@@ -62,8 +62,7 @@
                      android:layout_height="match_parent"
                      android:layout_marginRight="0dp"
                      android:textSize="15sp"
-                     style="@style/button_style"
-                     />
+                     style="@style/button_style" />
                 <!-- marginRight has to be 0 to catch border-touch -->
                 <com.android.calculator2.view.ColorButton
                      android:id="@+id/del"
@@ -73,8 +72,7 @@
                      android:layout_marginRight="0dp"
                      android:textSize="15sp"
                      android:padding="10dp"
-                     style="@style/button_style"
-                     />
+                     style="@style/button_style" />
             </FrameLayout>
         </LinearLayout>
         <RelativeLayout 

@@ -36,14 +36,13 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
-                maxDigits="@integer/max_digits"
-                >
-    
+                maxDigits="@integer/max_digits">
+
                 <com.android.calculator2.view.ScrollableDisplay
                     style="@style/display_style" />
                 <com.android.calculator2.view.ScrollableDisplay
                     style="@style/display_style" />
-    
+
             </com.android.calculator2.view.CalculatorDisplay>
             <ImageButton android:id="@+id/overflow_menu"
                 android:layout_width="48dip"
@@ -97,7 +96,7 @@
                      android:layout_height="0dp"
                      android:layout_weight="2"
                      android:layout_marginBottom="@dimen/group_padding" />
-            
+
                 <com.android.calculator2.view.CalculatorViewPager
                      android:id="@+id/largePanelswitch"
                      android:layout_width="match_parent"
